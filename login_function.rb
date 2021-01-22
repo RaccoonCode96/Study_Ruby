@@ -1,3 +1,4 @@
+
 def login(id)
     members = ['tom', 'jerry', 'snoopy']
     for member in members do
@@ -10,7 +11,7 @@ end
 
 
 def real_login()
-    puts("Enter your id!")
+    puts("Enter your id!\n")
     input_id = gets.chomp
     if login(input_id)
         puts("Hello!, " +input_id)
@@ -18,5 +19,6 @@ def real_login()
         puts("Check your id!")
     end
 end
+
 
 puts(real_login())
